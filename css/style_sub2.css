@@ -1,0 +1,80 @@
+#wrap{}
+#header{}
+#section{}
+#footer{}
+
+
+body{font-size:16px;}
+
+
+
+
+.inner{width:1200px; margin:0 auto;}
+
+#header{width:100%;min-width:1200px;padding-top:10px;
+        padding-bottom:10px;
+        background-color:#000000;
+        width:100%; ;
+        color:#fff;
+        font-size:0.8rem;}
+#header:after{content:'';clear:both;display: block;}
+#header .header_left{float:left;}
+#header .header_left a{font-size:40px;}
+#header .header_right{float:right;}
+#header .header_right a{
+  padding-left:10px; padding-right:10px; margin-top:20px;}
+  #header .header_right .web{text-decoration: underline;}
+#header .header_right a:last-child{margin-left:30px;}
+/*엄마 #header:after{content:' ',display:block;
+           clear:both;}*/
+ 
+#header:after{content:'', display:block;
+              clear:both;}
+#header:before{}
+#header .txt_strong{color:yellow; font-weight:bold;}
+  
+
+
+/*********************header****************************/
+
+.sub2_top .subtitle_box{border:1px solid #000; width:200px;margin-bottom:10px;}
+.sub2_top .title{text-align:center;margin:20px 0 70px 0;}
+.sub2_top{padding-top:40px;}
+.sub2_top .sub2_top_l{float:left; width:50%; height:900px;}
+.sub2_top .sub2_top_l span{margin-left:50px;margin-top:10px;}
+.sub2_top .sub2_top_l .water{margin-left:30px;}
+.sub2_top .sub2_top_l .classic{margin-left:70px;padding-top:10px;}
+.sub2_top .sub2_top_l:after{content:''; display:block; clear:both;}
+
+.sub2_top .sub2_top_txt{margin-top:90px;margin-left:160px;padding-bottom:300px;}
+.sub2_top .sub2_top_r {float:right;}
+.sub2_top .sub2_top_r .mask{width:70%;}
+.sub2_top .sub2_top_r .walk{width:60%;}
+.sub2_top .sub2_top_r .pis{width:60%;}
+.sub2_top .sub2_top_r .color_box{padding-top:10px;padding-bottom:70px;width:100%; margin:0 auto;margin-left:100px;
+                                 margin-top:10px}
+.sub2_top:after{content:'';display:block;clear:both;}
+.product{width:calc((100% - 20px)/3);}
+.sub2_btm div{display:block;}
+.sub2_btm h2{display:block;}
+
+/*********************section****************************/
+
+
+/*********************footer****************************/
+#footer{width:100%;}
+
+#footer a{color:black;border-bottom:1px solid #ccc;}
+#footer span{color:black;}
+#ft_top .ft_right {float:right; display:block;}
+#ft_top .ft_right .sub_box{margin-right:50px;
+     margin-bottom:20px;border:1px solid #000; 
+     width:300px;}
+#ft_top .ft_right .sub_box button{width:100px; height:25px;
+      background-color:black; color:#fff;}
+#ft_left a{padding-right:10px;}
+.ft_bottom{clear:both;}
+.ft_bottom .support{}
+.ft_bottom .design{margin-left :700px;}
+.ft_bottom .border{border-top:0.5px solid #ccc;
+     margin-top:20px;padding-top:20px;}
